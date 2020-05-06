@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/** Nav links style **/
+.nav-link a:link { /* orginal link */
+	color:aqua !important;
+}
+.nav-link a:visited { /* the color after pressed */
+	color: purple !important;
+}
+nav li a:hover { /*the colour you passed by */
+	color:aqua!important;
+}
+nav li a:active { /* pressing the color */
+	color: #F00 !important;
+}
+.navbar {
+	background-color: bisque;
+}
+
+body {
+	font-size:20px !important;
+	background-color: lightgoldenrodyellow;
+	background-repeat: repeat-x !important;
+	color:black!important;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"!important;
+}
+/** header colours and styles and backgrounds **/
+.nav-link {
+	color: black!important;
+	
+}
+.navbar-nav {
+	background-color:transparent;
+	font-size: 15px;
+	font-style: italic;
+}
+.navbar-brand {
+	color: white !important;	
+}
+.material-icons {
+	background-colour: blue !important;
+	font-size:36px;
+	colour: white !important;
+}
+.topic {
+	font-size:36px;	
+}
+.subheading {
+	text-align:  align: center !important;
+    font-size: 35px;
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 500px;
+    padding-top: 100px;
+}
+.container-fluid {
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.fullwidthImg {
+	width: 100%;
+}
+header {
+	background-color: lightyellow;
+
+}
+.masthead {
+	background-color: lightyellow;
+	max-width: 1000%;
+	
+}
+.page-heading, .topicsentence h1{
+	padding: 100px; 
+	text-align: center;
+	font-size: 36px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace" !important;
+}
+
+
+/** Body colours and styles and backgrounds**/
+/** template colours and styles **/
+.activityheading {
+	font-size: 25px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	
+}
+.contactheading p{
+	padding-top: 100px;
+	text-align: center;
+	font-size: 30px;
+}
+.activitystyle, .reviewstyle 
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+div.gallery {
+  border: 1px solid #000000;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+	padding-bottom: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.cinemaclose {
+	color: lightpink;
+}
+/** Body colours and backgrounds **/
+.col-sm-8 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+/** Footer styles**/
+footer, .clearfix{
+	background-color:black;
+}
